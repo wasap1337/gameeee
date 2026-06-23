@@ -52,12 +52,18 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
-        GameObject spawner = GameObject.Find("Spawner");
+        // Ищем компонент спавнера на сцене по его типу класса — это железобетонно
+        EnemySpawner spawner = Object.FindAnyObjectByType<EnemySpawner>();
         if (spawner != null)
         {
-            spawner.SendMessage("RegisterEnemyDeath", SendMessageOptions.DontRequireReceiver);
+            spawner.RegisterEnemyDeath();
+        }
+        else
+        {
+            Debug.LogError("[Enemy]: Не удалось найти EnemySpawner на сцене!");
         }
 
+        // Твой шанс на дроп аптечки (оставляем без изменений)
         int roll = Random.Range(0, 100);
         if (roll < 20 && healthPackPrefab != null)
         {
@@ -66,4 +72,5 @@ public class Enemy : MonoBehaviour
 
         Destroy(gameObject);
     }
+
 }

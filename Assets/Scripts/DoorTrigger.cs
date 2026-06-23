@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
 {
-    [Header("Настройки комнаты")]
-    [Tooltip("Поставь галочку только в боевой комнате! В стартовой и финальной сними.")]
+    
     public bool isCombatRoom = false;
 
     private bool canTeleport = false;

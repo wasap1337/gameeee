@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "D:\\GameAvt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|d:\\gameavt\\assets\\scripts\\doortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|d:\\gameavt\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|D:\\GameAvt\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|D:\\GameAvt\\assets\\scripts\\doortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|d:\\gameavt\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|D:\\GameAvt\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|d:\\gameavt\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|D:\\GameAvt\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB96F469-50BF-7520-C88E-405DA27C8A02}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,6 +51,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\GameAvt\\Assets\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
+              "ToolTip": "D:\\GameAvt\\Assets\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T17:39:25.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "D:\\GameAvt\\Assets\\Scripts\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBar.cs",
+              "ToolTip": "D:\\GameAvt\\Assets\\Scripts\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:56:55.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DoorTrigger.cs",
               "DocumentMoniker": "D:\\GameAvt\\Assets\\Scripts\\DoorTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorTrigger.cs",
@@ -50,12 +83,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DoorTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T18:02:21.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T18:02:21.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EnemySpawner.cs",
               "DocumentMoniker": "D:\\GameAvt\\Assets\\Scripts\\EnemySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
@@ -63,12 +95,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
               "ViewState": "AgIAACUAAAAAAAAAAADwv0UAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T17:23:12.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T17:23:12.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\GameAvt\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
@@ -76,12 +107,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAgwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T17:15:07.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T17:15:07.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "HealthPack.cs",
               "DocumentMoniker": "D:\\GameAvt\\Assets\\Scripts\\HealthPack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPack.cs",
@@ -89,12 +119,11 @@
               "RelativeToolTip": "Assets\\Scripts\\HealthPack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T17:12:35.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T17:12:35.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "D:\\GameAvt\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
@@ -102,12 +131,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwB0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T17:07:24.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T17:07:24.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\GameAvt\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -115,12 +143,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T16:13:30.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T16:13:30.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RoomManager.cs",
               "DocumentMoniker": "D:\\GameAvt\\Assets\\Scripts\\RoomManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RoomManager.cs",
@@ -128,8 +155,7 @@
               "RelativeToolTip": "Assets\\Scripts\\RoomManager.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T09:40:14.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T09:40:14.265Z"
             }
           ]
         }
